@@ -1,0 +1,23 @@
+.container{
+background-color: blue;
+color: white;
+border-radius: 15px;
+float: right;
+padding:0 10px;
+}
+ul{
+display: none;
+list-style-type: none;
+}
+.container:hover > ul{
+display: block;
+}
+header{
+width: 100%;
+float: left;
+}
+.logo{
+font-size: 30px;
+float: left;
+margin: 20px 100px;
+}
